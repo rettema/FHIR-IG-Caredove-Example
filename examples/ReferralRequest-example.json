@@ -1,0 +1,25 @@
+{
+  "resourceType": "ReferralRequest",
+  "id": "example",
+  "status": "draft",
+  "intent": "proposal",
+  "priority": "routine",
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "authoredOn": "2017-03-07T08:45:19-04:00",
+  "reasonCode": [
+    {
+      "text": "This is the reason for this referral"
+    }
+  ],
+  "description": "This is a general description of this referral",
+  "supportingInfo": [
+    {
+      "reference": "Medication/example"
+    },
+    {
+      "reference": "DocumentReference/example"
+    }
+  ]
+}

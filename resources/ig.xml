@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Hidden IG for de facto IG publishing-->
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+	<id value="ig" />
+	<url value="http://www.fhir.org/guides/caredove-api/ImplementationGuide/ig" />
+	<name value="Caredove-API" />
+	<status value="draft" />
+	<experimental value="true" />
+	<publisher value="AEGIS.net, Inc" />
+	<package>
+		<name value="base" />
+		<resource>
+			<example value="true" />
+			<sourceReference>
+				<reference value="Binary/example" />
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true" />
+			<sourceReference>
+				<reference value="DocumentReference/example" />
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true" />
+			<sourceReference>
+				<reference value="Medication/example" />
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true" />
+			<sourceReference>
+				<reference value="Patient/example" />
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true" />
+			<sourceReference>
+				<reference value="Practitioner/example" />
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true" />
+			<sourceReference>
+				<reference value="ReferralRequest/example" />
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false" />
+			<sourceReference>
+				<reference value="StructureDefinition/template-basic" />
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false" />
+			<sourceReference>
+				<reference value="CapabilityStatement/server" />
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false" />
+			<sourceReference>
+				<reference value="CapabilityStatement/client" />
+			</sourceReference>
+		</resource>
+	</package>
+	<page>
+		<source value="index.html" />
+		<title value="Caredove-API Homepage" />
+		<kind value="page" />
+	</page>
+</ImplementationGuide>

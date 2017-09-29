@@ -1,0 +1,125 @@
+{
+	"searches": [],
+	"resources": {
+		"CapabilityStatement/server": {
+			"base": "CapabilityStatement-server.html",
+			"source": "capabilitystatement-server.xml"
+		},
+		"CapabilityStatement/client": {
+			"base": "CapabilityStatement-client.html",
+			"source": "capabilitystatement-client.xml"
+		},
+		"StructureDefinition/template-basic": {
+			"base": "StructureDefinition-template-basic.html",
+			"defns": "StructureDefinition-template-basic-definitions.html"
+		},
+		"Binary/example": {
+			"base": "Binary-example.html",
+			"source": "Binary-example.json"
+		},
+		"DocumentReference/example": {
+			"base": "DocumentReference-example.html",
+			"source": "DocumentReference-example.json"
+		},
+		"Medication/example": {
+			"base": "Medication-example.html",
+			"source": "Medication-example.json"
+		},
+		"Patient/example": {
+			"base": "Patient-example.html",
+			"source": "Patient-example.json"
+		},
+		"Practitioner/example": {
+			"base": "Practitioner-example.html",
+			"source": "Practitioner-example.json"
+		},
+		"ReferralRequest/example": {
+			"base": "ReferralRequest-example.html",
+			"source": "ReferralRequest-example.json"
+		}
+	},
+	"do-transforms": "false",
+	"canonicalBase": "http://www.fhir.org/guides/caredove-api",
+	"spreadsheets": [
+		"template-profile-spreadsheet.xml"
+	],
+	"version": "3.0.1",
+	"source": "ig.xml",
+	"working-dir": "C:/Projects/fhir/stu301/build/guides/Caredove-API/",
+	"valuesets": [],
+	"paths": {
+		"resources": [
+			"resources",
+			"examples"
+		],
+		"txCache": "txCache",
+		"pages": [
+			"pages"
+		],
+		"output": "output",
+		"specification": "http://hl7.org/fhir/STU3",
+		"qa": "qa",
+		"temp": "temp"
+	},
+	"no-inactive-codes": "false",
+	"structuremaps": [
+		"Foo"
+	],
+	"tool": "jekyll",
+	"defaults": {
+		"Any": {
+			"template-format": "format.html",
+			"template-base": "base.html"
+		},
+		"OperationDefinition": {
+			"template-base": "op.html"
+		},
+		"CodeSystem": {
+			"template-base": "codesys.html"
+		},
+		"ConceptMap": {
+			"template-base": "cm.html"
+		},
+		"StructureMap": {
+			"template-base": "sm.html"
+		},
+		"Observation": {
+			"template-base": "ex.html"
+		},
+		"CapabilityStatement": {
+			"template-base": "capst.html"
+		},
+		"ValueSet": {
+			"template-base": "vs.html"
+		},
+		"StructureDefinition": {
+			"template-mappings": "sd-mappings.html",
+			"template-base": "sd.html",
+			"template-defns": "sd-definitions.html"
+		},
+		"MedicationRequest": {
+			"template-base": "ex.html"
+		},
+		"AllergyIntolerance": {
+			"template-base": "ex.html"
+		},
+		"Basic": {
+			"template-base": "ex.html"
+		}
+	},
+	"extraTemplates": [
+		"mappings"
+	],
+	"status": "draft",
+	"title": "Caredove-API",
+	"special-urls": [],
+	"fixed-business-version": "0.1.0",
+	"publisher": "AEGIS.net, Inc",
+	"jurisdiction": "US",
+	"gen-examples": "false",
+	"codesystems": [
+		"blah-codes"
+	],
+	"broken-links": "warning",
+	"sct-edition": "http://snomed.info/sct/731000124108"
+}

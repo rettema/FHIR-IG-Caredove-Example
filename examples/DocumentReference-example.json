@@ -1,0 +1,70 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "example",
+  "status": "current",
+  "docStatus": "preliminary",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "57133-1",
+        "display": "Referral Note"
+      }
+    ]
+  },
+  "class": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "57133-1",
+        "display": "Referral Note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "created": "2017-03-07T08:45:19-04:00",
+  "indexed": "2017-03-07T08:45:19-04:00",
+  "author": [
+    {
+      "reference": "Practitioner/example"
+    }
+  ],
+  "authenticator": {
+    "reference": "Practitioner/example"
+  },
+  "description": "Caredove referral",
+  "securityLabel": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/Confidentiality",
+          "code": "N",
+          "display": "normal"
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "attachment": {
+        "extension": [
+          {
+            "url": "http://api.caredove.com/fhir/StructureDefinition/caredove-filename",
+            "valueString": "caredove-referral.pdf"
+          }
+        ],
+        "contentType": "application/pdf",
+        "language": "en-US",
+        "url": "Binary/example",
+        "size": 20
+      }
+    }
+  ],
+  "context": {
+    "sourcePatientInfo": {
+      "reference": "Patient/example"
+    }
+  }
+}

@@ -1,0 +1,2125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+	<id value="client" />
+	<text>
+		<status value="generated" />
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<h2>Client</h2>
+			<div>
+				<p>This resource defines the expected capabilities of a Caredove-API conformant FHIR client.</p>
+			</div>
+			<table>
+				<tr>
+					<td>Mode</td>
+					<td>CLIENT</td>
+				</tr>
+				<tr>
+					<td>Description</td>
+					<td />
+				</tr>
+				<tr>
+					<td>Transaction</td>
+					<td />
+				</tr>
+				<tr>
+					<td>System History</td>
+					<td />
+				</tr>
+				<tr>
+					<td>System Search</td>
+					<td />
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<th>
+						<b>Resource Type</b>
+					</th>
+					<th>
+						<b>Profile</b>
+					</th>
+					<th>
+						<b>Read</b>
+					</th>
+					<th>
+						<b>V-Read</b>
+					</th>
+					<th>
+						<b>Search</b>
+					</th>
+					<th>
+						<b>Update</b>
+					</th>
+					<th>
+						<b>Updates</b>
+					</th>
+					<th>
+						<b>Create</b>
+					</th>
+					<th>
+						<b>Delete</b>
+					</th>
+					<th>
+						<b>History</b>
+					</th>
+				</tr>
+				<tr>
+					<td>AllergyIntolerance</td>
+					<td>
+						<a href="http://hl7.org/fhir/StructureDefinition/AllergyIntolerance">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance</a>
+					</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+				<tr>
+					<td>Appointment</td>
+					<td>
+						<a href="http://hl7.org/fhir/StructureDefinition/Appointment">http://hl7.org/fhir/StructureDefinition/Appointment</a>
+					</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+				<tr>
+					<td>AppointmentResponse</td>
+					<td>
+						<a href="http://hl7.org/fhir/StructureDefinition/AppointmentResponse">http://hl7.org/fhir/StructureDefinition/AppointmentResponse</a>
+					</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+				<tr>
+					<td>Binary</td>
+					<td>
+						<a href="http://hl7.org/fhir/StructureDefinition/Binary">http://hl7.org/fhir/StructureDefinition/Binary</a>
+					</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+				<tr>
+					<td>Bundle</td>
+					<td>
+						<a href="http://hl7.org/fhir/StructureDefinition/Bundle">http://hl7.org/fhir/StructureDefinition/Bundle</a>
+					</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+				<tr>
+					<td>Consent</td>
+					<td>
+						<a href="http://hl7.org/fhir/StructureDefinition/Consent">http://hl7.org/fhir/StructureDefinition/Consent</a>
+					</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+				<tr>
+					<td>DocumentReference</td>
+					<td>
+						<a href="http://hl7.org/fhir/StructureDefinition/DocumentReference">http://hl7.org/fhir/StructureDefinition/DocumentReference</a>
+					</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+				<tr>
+					<td>Medication</td>
+					<td>
+						<a href="http://hl7.org/fhir/StructureDefinition/Medication">http://hl7.org/fhir/StructureDefinition/Medication</a>
+					</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+				<tr>
+					<td>Patient</td>
+					<td>
+						<a href="http://hl7.org/fhir/StructureDefinition/Patient">http://hl7.org/fhir/StructureDefinition/Patient</a>
+					</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+				<tr>
+					<td>Practitioner</td>
+					<td>
+						<a href="http://hl7.org/fhir/StructureDefinition/Practitioner">http://hl7.org/fhir/StructureDefinition/Practitioner</a>
+					</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+			</table>
+		</div>
+	</text>
+	<url value="http://www.fhir.org/guides/caredove-api/CapabilityStatement/client" />
+	<name value="Client" />
+	<status value="draft" />
+	<date value="2017-09-28" />
+	<publisher value="AEGIS.net, Inc" />
+	<contact>
+		<name value="Touchstone Support" />
+		<telecom>
+			<system value="email" />
+			<value value="Touchstone_Support@aegis.net" />
+			<use value="work" />
+		</telecom>
+	</contact>
+	<description value="This resource defines the expected capabilities of a Caredove-API conformant FHIR client." />
+	<kind value="requirements" />
+	<fhirVersion value="3.0.1" />
+	<acceptUnknown value="extensions" />
+	<format value="json" />
+	<profile>
+		<reference value="http://www.fhir.org/guides/caredove-api/StructureDefinition/template-basic" />
+		<display value="StructureDefinition-template-basic" />
+	</profile>
+	<rest>
+		<mode value="client" />
+		<resource>
+			<type value="AllergyIntolerance" />
+			<profile>
+				<reference value="http://hl7.org/fhir/StructureDefinition/AllergyIntolerance" />
+			</profile>
+			<interaction>
+				<code value="read" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="vread" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="update" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="patch" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="delete" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-instance" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="create" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="search-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<versioning value="versioned-update" />
+			<readHistory value="true" />
+			<updateCreate value="true" />
+			<conditionalCreate value="true" />
+			<conditionalRead value="full-support" />
+			<conditionalUpdate value="true" />
+			<conditionalDelete value="multiple" />
+			<referencePolicy value="literal" />
+			<referencePolicy value="logical" />
+			<searchInclude value="AllergyIntolerance.recorder" />
+			<searchInclude value="AllergyIntolerance.asserter" />
+			<searchInclude value="AllergyIntolerance.patient" />
+			<searchParam>
+				<name value="_id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-id" />
+				<type value="token" />
+				<documentation value="Logical id of this artifact" />
+			</searchParam>
+			<searchParam>
+				<name value="_language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-language" />
+				<type value="token" />
+				<documentation value="Language of the resource content" />
+			</searchParam>
+			<searchParam>
+				<name value="_lastUpdated" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated" />
+				<type value="date" />
+				<documentation value="When the resource version last changed" />
+			</searchParam>
+			<searchParam>
+				<name value="_profile" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-profile" />
+				<type value="token" />
+				<documentation value="Profiles this resource claims to conform to" />
+			</searchParam>
+			<searchParam>
+				<name value="_security" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-security" />
+				<type value="token" />
+				<documentation value="Security Labels applied to this resource" />
+			</searchParam>
+			<searchParam>
+				<name value="_tag" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-tag" />
+				<type value="token" />
+				<documentation value="Tags applied" />
+			</searchParam>
+			<searchParam>
+				<name value="_sort" />
+				<type value="string" />
+				<documentation value="The criteria sort order" />
+			</searchParam>
+			<searchParam>
+				<name value="_count" />
+				<type value="number" />
+				<documentation value="The number of resources returned per page" />
+			</searchParam>
+			<searchParam>
+				<name value="_include" />
+				<type value="string" />
+				<documentation value="Request that the engine return additional resources" />
+			</searchParam>
+			<searchParam>
+				<name value="_format" />
+				<type value="string" />
+				<documentation value="Specify the returned format of the response payload" />
+			</searchParam>
+			<searchParam>
+				<name value="asserter" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-asserter" />
+				<type value="reference" />
+				<documentation value="Source of the information about the allergy" />
+			</searchParam>
+			<searchParam>
+				<name value="category" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-category" />
+				<type value="token" />
+				<documentation value="food | medication | environment | biologic" />
+			</searchParam>
+			<searchParam>
+				<name value="clinical-status" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-clinical-status" />
+				<type value="token" />
+				<documentation value="active | inactive | resolved" />
+			</searchParam>
+			<searchParam>
+				<name value="code" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-code" />
+				<type value="token" />
+				<documentation value="Code that identifies the allergy or intolerance" />
+			</searchParam>
+			<searchParam>
+				<name value="criticality" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-criticality" />
+				<type value="token" />
+				<documentation value="low | high | unable-to-assess" />
+			</searchParam>
+			<searchParam>
+				<name value="date" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-date" />
+				<type value="date" />
+				<documentation value="Date record was believed accurate" />
+			</searchParam>
+			<searchParam>
+				<name value="identifier" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-identifier" />
+				<type value="token" />
+				<documentation value="External ids for this item" />
+			</searchParam>
+			<searchParam>
+				<name value="last-date" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-last-date" />
+				<type value="date" />
+				<documentation value="Date(/time) of last known occurrence of a reaction" />
+			</searchParam>
+			<searchParam>
+				<name value="manifestation" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-manifestation" />
+				<type value="token" />
+				<documentation value="Clinical symptoms/signs associated with the Event" />
+			</searchParam>
+			<searchParam>
+				<name value="onset" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-onset" />
+				<type value="date" />
+				<documentation value="Date(/time) when manifestations showed" />
+			</searchParam>
+			<searchParam>
+				<name value="patient" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-patient" />
+				<type value="reference" />
+				<documentation value="Who the sensitivity is for" />
+			</searchParam>
+			<searchParam>
+				<name value="recorder" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-recorder" />
+				<type value="reference" />
+				<documentation value="Who recorded the sensitivity" />
+			</searchParam>
+			<searchParam>
+				<name value="route" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-route" />
+				<type value="token" />
+				<documentation value="How the subject was exposed to the substance" />
+			</searchParam>
+			<searchParam>
+				<name value="severity" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-severity" />
+				<type value="token" />
+				<documentation value="mild | moderate | severe (of event as a whole)" />
+			</searchParam>
+			<searchParam>
+				<name value="type" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-type" />
+				<type value="token" />
+				<documentation value="allergy | intolerance - Underlying mechanism (if known)" />
+			</searchParam>
+			<searchParam>
+				<name value="verification-status" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-verification-status" />
+				<type value="token" />
+				<documentation value="unconfirmed | confirmed | refuted | entered-in-error" />
+			</searchParam>
+		</resource>
+		<resource>
+			<type value="Appointment" />
+			<profile>
+				<reference value="http://hl7.org/fhir/StructureDefinition/Appointment" />
+			</profile>
+			<interaction>
+				<code value="read" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="vread" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="update" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="patch" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="delete" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-instance" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="create" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="search-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<versioning value="versioned-update" />
+			<readHistory value="true" />
+			<updateCreate value="true" />
+			<conditionalCreate value="true" />
+			<conditionalRead value="full-support" />
+			<conditionalUpdate value="true" />
+			<conditionalDelete value="multiple" />
+			<referencePolicy value="literal" />
+			<referencePolicy value="logical" />
+			<searchInclude value="Appointment.actor" />
+			<searchInclude value="Appointment.practitioner" />
+			<searchInclude value="Appointment.incomingreferral" />
+			<searchInclude value="Appointment.patient" />
+			<searchInclude value="Appointment.location" />
+			<searchParam>
+				<name value="_id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-id" />
+				<type value="token" />
+				<documentation value="Logical id of this artifact" />
+			</searchParam>
+			<searchParam>
+				<name value="_language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-language" />
+				<type value="token" />
+				<documentation value="Language of the resource content" />
+			</searchParam>
+			<searchParam>
+				<name value="_lastUpdated" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated" />
+				<type value="date" />
+				<documentation value="When the resource version last changed" />
+			</searchParam>
+			<searchParam>
+				<name value="_profile" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-profile" />
+				<type value="token" />
+				<documentation value="Profiles this resource claims to conform to" />
+			</searchParam>
+			<searchParam>
+				<name value="_security" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-security" />
+				<type value="token" />
+				<documentation value="Security Labels applied to this resource" />
+			</searchParam>
+			<searchParam>
+				<name value="_tag" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-tag" />
+				<type value="token" />
+				<documentation value="Tags applied" />
+			</searchParam>
+			<searchParam>
+				<name value="_sort" />
+				<type value="string" />
+				<documentation value="The criteria sort order" />
+			</searchParam>
+			<searchParam>
+				<name value="_count" />
+				<type value="number" />
+				<documentation value="The number of resources returned per page" />
+			</searchParam>
+			<searchParam>
+				<name value="_include" />
+				<type value="string" />
+				<documentation value="Request that the engine return additional resources" />
+			</searchParam>
+			<searchParam>
+				<name value="_format" />
+				<type value="string" />
+				<documentation value="Specify the returned format of the response payload" />
+			</searchParam>
+			<searchParam>
+				<name value="actor" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-actor" />
+				<type value="reference" />
+				<documentation value="Any one of the individuals participating in the appointment" />
+			</searchParam>
+			<searchParam>
+				<name value="appointment-type" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-appointment-type" />
+				<type value="token" />
+				<documentation value="The style of appointment or patient that has been booked in the slot (not service type)" />
+			</searchParam>
+			<searchParam>
+				<name value="date" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-date" />
+				<type value="date" />
+				<documentation value="Appointment date/time." />
+			</searchParam>
+			<searchParam>
+				<name value="identifier" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-identifier" />
+				<type value="token" />
+				<documentation value="An Identifier of the Appointment" />
+			</searchParam>
+			<searchParam>
+				<name value="incomingreferral" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-incomingreferral" />
+				<type value="reference" />
+				<documentation value="The ReferralRequest provided as information to allocate to the Encounter" />
+			</searchParam>
+			<searchParam>
+				<name value="location" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-location" />
+				<type value="reference" />
+				<documentation value="This location is listed in the participants of the appointment" />
+			</searchParam>
+			<searchParam>
+				<name value="part-status" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-part-status" />
+				<type value="token" />
+				<documentation value="The Participation status of the subject, or other participant on the appointment. Can be used to locate participants that have not responded to meeting requests." />
+			</searchParam>
+			<searchParam>
+				<name value="patient" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-patient" />
+				<type value="reference" />
+				<documentation value="One of the individuals of the appointment is this patient" />
+			</searchParam>
+			<searchParam>
+				<name value="practitioner" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-practitioner" />
+				<type value="reference" />
+				<documentation value="One of the individuals of the appointment is this practitioner" />
+			</searchParam>
+			<searchParam>
+				<name value="service-type" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-service-type" />
+				<type value="token" />
+				<documentation value="The specific service that is to be performed during this appointment" />
+			</searchParam>
+			<searchParam>
+				<name value="status" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Appointment-status" />
+				<type value="token" />
+				<documentation value="The overall status of the appointment" />
+			</searchParam>
+		</resource>
+		<resource>
+			<type value="AppointmentResponse" />
+			<profile>
+				<reference value="http://hl7.org/fhir/StructureDefinition/AppointmentResponse" />
+			</profile>
+			<interaction>
+				<code value="read" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="vread" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="update" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="patch" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="delete" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-instance" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="create" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="search-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<versioning value="versioned-update" />
+			<readHistory value="true" />
+			<updateCreate value="true" />
+			<conditionalCreate value="true" />
+			<conditionalRead value="full-support" />
+			<conditionalUpdate value="true" />
+			<conditionalDelete value="multiple" />
+			<referencePolicy value="literal" />
+			<referencePolicy value="logical" />
+			<searchInclude value="AppointmentResponse.actor" />
+			<searchInclude value="AppointmentResponse.practitioner" />
+			<searchInclude value="AppointmentResponse.patient" />
+			<searchInclude value="AppointmentResponse.appointment" />
+			<searchInclude value="AppointmentResponse.location" />
+			<searchParam>
+				<name value="_id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-id" />
+				<type value="token" />
+				<documentation value="Logical id of this artifact" />
+			</searchParam>
+			<searchParam>
+				<name value="_language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-language" />
+				<type value="token" />
+				<documentation value="Language of the resource content" />
+			</searchParam>
+			<searchParam>
+				<name value="_lastUpdated" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated" />
+				<type value="date" />
+				<documentation value="When the resource version last changed" />
+			</searchParam>
+			<searchParam>
+				<name value="_profile" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-profile" />
+				<type value="token" />
+				<documentation value="Profiles this resource claims to conform to" />
+			</searchParam>
+			<searchParam>
+				<name value="_security" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-security" />
+				<type value="token" />
+				<documentation value="Security Labels applied to this resource" />
+			</searchParam>
+			<searchParam>
+				<name value="_tag" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-tag" />
+				<type value="token" />
+				<documentation value="Tags applied" />
+			</searchParam>
+			<searchParam>
+				<name value="_sort" />
+				<type value="string" />
+				<documentation value="The criteria sort order" />
+			</searchParam>
+			<searchParam>
+				<name value="_count" />
+				<type value="number" />
+				<documentation value="The number of resources returned per page" />
+			</searchParam>
+			<searchParam>
+				<name value="_include" />
+				<type value="string" />
+				<documentation value="Request that the engine return additional resources" />
+			</searchParam>
+			<searchParam>
+				<name value="_format" />
+				<type value="string" />
+				<documentation value="Specify the returned format of the response payload" />
+			</searchParam>
+			<searchParam>
+				<name value="actor" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AppointmentResponse-actor" />
+				<type value="reference" />
+				<documentation value="The Person, Location/HealthcareService or Device that this appointment response replies for" />
+			</searchParam>
+			<searchParam>
+				<name value="appointment" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AppointmentResponse-appointment" />
+				<type value="reference" />
+				<documentation value="The appointment that the response is attached to" />
+			</searchParam>
+			<searchParam>
+				<name value="identifier" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AppointmentResponse-identifier" />
+				<type value="token" />
+				<documentation value="An Identifier in this appointment response" />
+			</searchParam>
+			<searchParam>
+				<name value="location" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AppointmentResponse-location" />
+				<type value="reference" />
+				<documentation value="This Response is for this Location" />
+			</searchParam>
+			<searchParam>
+				<name value="part-status" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AppointmentResponse-part-status" />
+				<type value="token" />
+				<documentation value="The participants acceptance status for this appointment" />
+			</searchParam>
+			<searchParam>
+				<name value="patient" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AppointmentResponse-patient" />
+				<type value="reference" />
+				<documentation value="This Response is for this Patient" />
+			</searchParam>
+			<searchParam>
+				<name value="practitioner" />
+				<definition value="http://hl7.org/fhir/SearchParameter/AppointmentResponse-practitioner" />
+				<type value="reference" />
+				<documentation value="This Response is for this Practitioner" />
+			</searchParam>
+		</resource>
+		<resource>
+			<type value="Binary" />
+			<profile>
+				<reference value="http://hl7.org/fhir/StructureDefinition/Binary" />
+			</profile>
+			<interaction>
+				<code value="read" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="vread" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="update" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="patch" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="delete" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-instance" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="create" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="search-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<versioning value="versioned-update" />
+			<readHistory value="true" />
+			<updateCreate value="true" />
+			<conditionalCreate value="true" />
+			<conditionalRead value="full-support" />
+			<conditionalUpdate value="true" />
+			<conditionalDelete value="multiple" />
+			<referencePolicy value="literal" />
+			<referencePolicy value="logical" />
+			<searchParam>
+				<name value="_id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-id" />
+				<type value="token" />
+				<documentation value="Logical id of this artifact" />
+			</searchParam>
+			<searchParam>
+				<name value="_language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-language" />
+				<type value="token" />
+				<documentation value="Language of the resource content" />
+			</searchParam>
+			<searchParam>
+				<name value="_lastUpdated" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated" />
+				<type value="date" />
+				<documentation value="When the resource version last changed" />
+			</searchParam>
+			<searchParam>
+				<name value="_profile" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-profile" />
+				<type value="token" />
+				<documentation value="Profiles this resource claims to conform to" />
+			</searchParam>
+			<searchParam>
+				<name value="_security" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-security" />
+				<type value="token" />
+				<documentation value="Security Labels applied to this resource" />
+			</searchParam>
+			<searchParam>
+				<name value="_tag" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-tag" />
+				<type value="token" />
+				<documentation value="Tags applied" />
+			</searchParam>
+			<searchParam>
+				<name value="_sort" />
+				<type value="string" />
+				<documentation value="The criteria sort order" />
+			</searchParam>
+			<searchParam>
+				<name value="_count" />
+				<type value="number" />
+				<documentation value="The number of resources returned per page" />
+			</searchParam>
+			<searchParam>
+				<name value="_include" />
+				<type value="string" />
+				<documentation value="Request that the engine return additional resources" />
+			</searchParam>
+			<searchParam>
+				<name value="_format" />
+				<type value="string" />
+				<documentation value="Specify the returned format of the response payload" />
+			</searchParam>
+			<searchParam>
+				<name value="contenttype" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Binary-contenttype" />
+				<type value="token" />
+				<documentation value="MimeType of the binary content" />
+			</searchParam>
+		</resource>
+		<resource>
+			<type value="Bundle" />
+			<profile>
+				<reference value="http://hl7.org/fhir/StructureDefinition/Bundle" />
+			</profile>
+			<interaction>
+				<code value="read" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="vread" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="update" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="patch" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="delete" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-instance" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="create" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="search-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<versioning value="versioned-update" />
+			<readHistory value="true" />
+			<updateCreate value="true" />
+			<conditionalCreate value="true" />
+			<conditionalRead value="full-support" />
+			<conditionalUpdate value="true" />
+			<conditionalDelete value="multiple" />
+			<referencePolicy value="literal" />
+			<referencePolicy value="logical" />
+			<searchInclude value="Bundle.composition" />
+			<searchInclude value="Bundle.message" />
+			<searchParam>
+				<name value="_id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-id" />
+				<type value="token" />
+				<documentation value="Logical id of this artifact" />
+			</searchParam>
+			<searchParam>
+				<name value="_language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-language" />
+				<type value="token" />
+				<documentation value="Language of the resource content" />
+			</searchParam>
+			<searchParam>
+				<name value="_lastUpdated" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated" />
+				<type value="date" />
+				<documentation value="When the resource version last changed" />
+			</searchParam>
+			<searchParam>
+				<name value="_profile" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-profile" />
+				<type value="token" />
+				<documentation value="Profiles this resource claims to conform to" />
+			</searchParam>
+			<searchParam>
+				<name value="_security" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-security" />
+				<type value="token" />
+				<documentation value="Security Labels applied to this resource" />
+			</searchParam>
+			<searchParam>
+				<name value="_tag" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-tag" />
+				<type value="token" />
+				<documentation value="Tags applied" />
+			</searchParam>
+			<searchParam>
+				<name value="_sort" />
+				<type value="string" />
+				<documentation value="The criteria sort order" />
+			</searchParam>
+			<searchParam>
+				<name value="_count" />
+				<type value="number" />
+				<documentation value="The number of resources returned per page" />
+			</searchParam>
+			<searchParam>
+				<name value="_include" />
+				<type value="string" />
+				<documentation value="Request that the engine return additional resources" />
+			</searchParam>
+			<searchParam>
+				<name value="_format" />
+				<type value="string" />
+				<documentation value="Specify the returned format of the response payload" />
+			</searchParam>
+			<searchParam>
+				<name value="composition" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Bundle-composition" />
+				<type value="reference" />
+				<documentation value="The first resource in the bundle, if the bundle type is &amp;quot;document&amp;quot; - this is a composition, and this parameter provides access to searches its contents" />
+			</searchParam>
+			<searchParam>
+				<name value="identifier" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Bundle-identifier" />
+				<type value="token" />
+				<documentation value="Persistent identifier for the bundle" />
+			</searchParam>
+			<searchParam>
+				<name value="message" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Bundle-message" />
+				<type value="reference" />
+				<documentation value="The first resource in the bundle, if the bundle type is &amp;quot;message&amp;quot; - this is a message header, and this parameter provides access to search its contents" />
+			</searchParam>
+			<searchParam>
+				<name value="type" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Bundle-type" />
+				<type value="token" />
+				<documentation value="document | message | transaction | transaction-response | batch | batch-response | history | searchset | collection" />
+			</searchParam>
+		</resource>
+		<resource>
+			<type value="Consent" />
+			<profile>
+				<reference value="http://hl7.org/fhir/StructureDefinition/Consent" />
+			</profile>
+			<interaction>
+				<code value="read" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="vread" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="update" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="patch" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="delete" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-instance" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="create" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="search-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<versioning value="versioned-update" />
+			<readHistory value="true" />
+			<updateCreate value="true" />
+			<conditionalCreate value="true" />
+			<conditionalRead value="full-support" />
+			<conditionalUpdate value="true" />
+			<conditionalDelete value="multiple" />
+			<referencePolicy value="literal" />
+			<referencePolicy value="logical" />
+			<searchInclude value="Consent.data" />
+			<searchInclude value="Consent.source" />
+			<searchInclude value="Consent.actor" />
+			<searchInclude value="Consent.patient" />
+			<searchInclude value="Consent.organization" />
+			<searchInclude value="Consent.consentor" />
+			<searchParam>
+				<name value="_id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-id" />
+				<type value="token" />
+				<documentation value="Logical id of this artifact" />
+			</searchParam>
+			<searchParam>
+				<name value="_language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-language" />
+				<type value="token" />
+				<documentation value="Language of the resource content" />
+			</searchParam>
+			<searchParam>
+				<name value="_lastUpdated" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated" />
+				<type value="date" />
+				<documentation value="When the resource version last changed" />
+			</searchParam>
+			<searchParam>
+				<name value="_profile" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-profile" />
+				<type value="token" />
+				<documentation value="Profiles this resource claims to conform to" />
+			</searchParam>
+			<searchParam>
+				<name value="_security" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-security" />
+				<type value="token" />
+				<documentation value="Security Labels applied to this resource" />
+			</searchParam>
+			<searchParam>
+				<name value="_tag" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-tag" />
+				<type value="token" />
+				<documentation value="Tags applied" />
+			</searchParam>
+			<searchParam>
+				<name value="_sort" />
+				<type value="string" />
+				<documentation value="The criteria sort order" />
+			</searchParam>
+			<searchParam>
+				<name value="_count" />
+				<type value="number" />
+				<documentation value="The number of resources returned per page" />
+			</searchParam>
+			<searchParam>
+				<name value="_include" />
+				<type value="string" />
+				<documentation value="Request that the engine return additional resources" />
+			</searchParam>
+			<searchParam>
+				<name value="_format" />
+				<type value="string" />
+				<documentation value="Specify the returned format of the response payload" />
+			</searchParam>
+			<searchParam>
+				<name value="action" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-action" />
+				<type value="token" />
+				<documentation value="Actions controlled by this consent" />
+			</searchParam>
+			<searchParam>
+				<name value="actor" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-actor" />
+				<type value="reference" />
+				<documentation value="Resource for the actor (or group, by role)" />
+			</searchParam>
+			<searchParam>
+				<name value="category" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-category" />
+				<type value="token" />
+				<documentation value="Classification of the consent statement - for indexing/retrieval" />
+			</searchParam>
+			<searchParam>
+				<name value="consentor" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-consentor" />
+				<type value="reference" />
+				<documentation value="Who is agreeing to the policy and exceptions" />
+			</searchParam>
+			<searchParam>
+				<name value="data" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-data" />
+				<type value="reference" />
+				<documentation value="The actual data reference" />
+			</searchParam>
+			<searchParam>
+				<name value="date" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-date" />
+				<type value="date" />
+				<documentation value="When this Consent was created or indexed" />
+			</searchParam>
+			<searchParam>
+				<name value="identifier" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-identifier" />
+				<type value="token" />
+				<documentation value="Identifier for this record (external references)" />
+			</searchParam>
+			<searchParam>
+				<name value="organization" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-organization" />
+				<type value="reference" />
+				<documentation value="Custodian of the consent" />
+			</searchParam>
+			<searchParam>
+				<name value="patient" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-patient" />
+				<type value="reference" />
+				<documentation value="Who the consent applies to" />
+			</searchParam>
+			<searchParam>
+				<name value="period" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-period" />
+				<type value="date" />
+				<documentation value="Period that this consent applies" />
+			</searchParam>
+			<searchParam>
+				<name value="purpose" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-purpose" />
+				<type value="token" />
+				<documentation value="Context of activities for which the agreement is made" />
+			</searchParam>
+			<searchParam>
+				<name value="securitylabel" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-securitylabel" />
+				<type value="token" />
+				<documentation value="Security Labels that define affected resources" />
+			</searchParam>
+			<searchParam>
+				<name value="source" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-source" />
+				<type value="reference" />
+				<documentation value="Source from which this consent is taken" />
+			</searchParam>
+			<searchParam>
+				<name value="status" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Consent-status" />
+				<type value="token" />
+				<documentation value="draft | proposed | active | rejected | inactive | entered-in-error" />
+			</searchParam>
+		</resource>
+		<resource>
+			<type value="DocumentReference" />
+			<profile>
+				<reference value="http://hl7.org/fhir/StructureDefinition/DocumentReference" />
+			</profile>
+			<interaction>
+				<code value="read" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="vread" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="update" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="patch" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="delete" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-instance" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="create" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="search-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<versioning value="versioned-update" />
+			<readHistory value="true" />
+			<updateCreate value="true" />
+			<conditionalCreate value="true" />
+			<conditionalRead value="full-support" />
+			<conditionalUpdate value="true" />
+			<conditionalDelete value="multiple" />
+			<referencePolicy value="literal" />
+			<referencePolicy value="logical" />
+			<searchInclude value="DocumentReference.subject" />
+			<searchInclude value="DocumentReference.patient" />
+			<searchInclude value="DocumentReference.authenticator" />
+			<searchInclude value="DocumentReference.custodian" />
+			<searchInclude value="DocumentReference.author" />
+			<searchInclude value="DocumentReference.encounter" />
+			<searchInclude value="DocumentReference.related-ref" />
+			<searchInclude value="DocumentReference.relatesto" />
+			<searchParam>
+				<name value="_id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-id" />
+				<type value="token" />
+				<documentation value="Logical id of this artifact" />
+			</searchParam>
+			<searchParam>
+				<name value="_language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-language" />
+				<type value="token" />
+				<documentation value="Language of the resource content" />
+			</searchParam>
+			<searchParam>
+				<name value="_lastUpdated" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated" />
+				<type value="date" />
+				<documentation value="When the resource version last changed" />
+			</searchParam>
+			<searchParam>
+				<name value="_profile" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-profile" />
+				<type value="token" />
+				<documentation value="Profiles this resource claims to conform to" />
+			</searchParam>
+			<searchParam>
+				<name value="_security" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-security" />
+				<type value="token" />
+				<documentation value="Security Labels applied to this resource" />
+			</searchParam>
+			<searchParam>
+				<name value="_tag" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-tag" />
+				<type value="token" />
+				<documentation value="Tags applied" />
+			</searchParam>
+			<searchParam>
+				<name value="_sort" />
+				<type value="string" />
+				<documentation value="The criteria sort order" />
+			</searchParam>
+			<searchParam>
+				<name value="_count" />
+				<type value="number" />
+				<documentation value="The number of resources returned per page" />
+			</searchParam>
+			<searchParam>
+				<name value="_include" />
+				<type value="string" />
+				<documentation value="Request that the engine return additional resources" />
+			</searchParam>
+			<searchParam>
+				<name value="_format" />
+				<type value="string" />
+				<documentation value="Specify the returned format of the response payload" />
+			</searchParam>
+			<searchParam>
+				<name value="authenticator" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-authenticator" />
+				<type value="reference" />
+				<documentation value="Who/what authenticated the document" />
+			</searchParam>
+			<searchParam>
+				<name value="author" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-author" />
+				<type value="reference" />
+				<documentation value="Who and/or what authored the document" />
+			</searchParam>
+			<searchParam>
+				<name value="class" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-class" />
+				<type value="token" />
+				<documentation value="Categorization of document" />
+			</searchParam>
+			<searchParam>
+				<name value="created" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-created" />
+				<type value="date" />
+				<documentation value="Document creation time" />
+			</searchParam>
+			<searchParam>
+				<name value="custodian" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-custodian" />
+				<type value="reference" />
+				<documentation value="Organization which maintains the document" />
+			</searchParam>
+			<searchParam>
+				<name value="description" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-description" />
+				<type value="string" />
+				<documentation value="Human-readable description (title)" />
+			</searchParam>
+			<searchParam>
+				<name value="encounter" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-encounter" />
+				<type value="reference" />
+				<documentation value="Context of the document content" />
+			</searchParam>
+			<searchParam>
+				<name value="event" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-event" />
+				<type value="token" />
+				<documentation value="Main clinical acts documented" />
+			</searchParam>
+			<searchParam>
+				<name value="facility" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-facility" />
+				<type value="token" />
+				<documentation value="Kind of facility where patient was seen" />
+			</searchParam>
+			<searchParam>
+				<name value="format" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-format" />
+				<type value="token" />
+				<documentation value="Format/content rules for the document" />
+			</searchParam>
+			<searchParam>
+				<name value="identifier" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-identifier" />
+				<type value="token" />
+				<documentation value="Master Version Specific Identifier" />
+			</searchParam>
+			<searchParam>
+				<name value="indexed" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-indexed" />
+				<type value="date" />
+				<documentation value="When this document reference was created" />
+			</searchParam>
+			<searchParam>
+				<name value="language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-language" />
+				<type value="token" />
+				<documentation value="Human language of the content (BCP-47)" />
+			</searchParam>
+			<searchParam>
+				<name value="location" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-location" />
+				<type value="uri" />
+				<documentation value="Uri where the data can be found" />
+			</searchParam>
+			<searchParam>
+				<name value="patient" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-patient" />
+				<type value="reference" />
+				<documentation value="Who/what is the subject of the document" />
+			</searchParam>
+			<searchParam>
+				<name value="period" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-period" />
+				<type value="date" />
+				<documentation value="Time of service that is being documented" />
+			</searchParam>
+			<searchParam>
+				<name value="related-id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-related-id" />
+				<type value="token" />
+				<documentation value="Identifier of related objects or events" />
+			</searchParam>
+			<searchParam>
+				<name value="related-ref" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-related-ref" />
+				<type value="reference" />
+				<documentation value="Related Resource" />
+			</searchParam>
+			<searchParam>
+				<name value="relatesto" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-relatesto" />
+				<type value="reference" />
+				<documentation value="Target of the relationship" />
+			</searchParam>
+			<searchParam>
+				<name value="relation" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-relation" />
+				<type value="token" />
+				<documentation value="replaces | transforms | signs | appends" />
+			</searchParam>
+			<searchParam>
+				<name value="relationship" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-relationship" />
+				<type value="composite" />
+				<documentation value="Combination of relation and relatesTo" />
+			</searchParam>
+			<searchParam>
+				<name value="securitylabel" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-securitylabel" />
+				<type value="token" />
+				<documentation value="Document security-tags" />
+			</searchParam>
+			<searchParam>
+				<name value="setting" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-setting" />
+				<type value="token" />
+				<documentation value="Additional details about where the content was created (e.g. clinical specialty)" />
+			</searchParam>
+			<searchParam>
+				<name value="status" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-status" />
+				<type value="token" />
+				<documentation value="current | superseded | entered-in-error" />
+			</searchParam>
+			<searchParam>
+				<name value="subject" />
+				<definition value="http://hl7.org/fhir/SearchParameter/DocumentReference-subject" />
+				<type value="reference" />
+				<documentation value="Who/what is the subject of the document" />
+			</searchParam>
+			<searchParam>
+				<name value="type" />
+				<definition value="http://hl7.org/fhir/SearchParameter/clinical-type" />
+				<type value="token" />
+				<documentation value="Kind of document (LOINC if possible)" />
+			</searchParam>
+		</resource>
+		<resource>
+			<type value="Medication" />
+			<profile>
+				<reference value="http://hl7.org/fhir/StructureDefinition/Medication" />
+			</profile>
+			<interaction>
+				<code value="read" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="vread" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="update" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="patch" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="delete" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-instance" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="create" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="search-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<versioning value="versioned-update" />
+			<readHistory value="true" />
+			<updateCreate value="true" />
+			<conditionalCreate value="true" />
+			<conditionalRead value="full-support" />
+			<conditionalUpdate value="true" />
+			<conditionalDelete value="multiple" />
+			<referencePolicy value="literal" />
+			<referencePolicy value="logical" />
+			<searchInclude value="Medication.package-item" />
+			<searchInclude value="Medication.ingredient" />
+			<searchInclude value="Medication.manufacturer" />
+			<searchParam>
+				<name value="_id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-id" />
+				<type value="token" />
+				<documentation value="Logical id of this artifact" />
+			</searchParam>
+			<searchParam>
+				<name value="_language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-language" />
+				<type value="token" />
+				<documentation value="Language of the resource content" />
+			</searchParam>
+			<searchParam>
+				<name value="_lastUpdated" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated" />
+				<type value="date" />
+				<documentation value="When the resource version last changed" />
+			</searchParam>
+			<searchParam>
+				<name value="_profile" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-profile" />
+				<type value="token" />
+				<documentation value="Profiles this resource claims to conform to" />
+			</searchParam>
+			<searchParam>
+				<name value="_security" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-security" />
+				<type value="token" />
+				<documentation value="Security Labels applied to this resource" />
+			</searchParam>
+			<searchParam>
+				<name value="_tag" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-tag" />
+				<type value="token" />
+				<documentation value="Tags applied" />
+			</searchParam>
+			<searchParam>
+				<name value="_sort" />
+				<type value="string" />
+				<documentation value="The criteria sort order" />
+			</searchParam>
+			<searchParam>
+				<name value="_count" />
+				<type value="number" />
+				<documentation value="The number of resources returned per page" />
+			</searchParam>
+			<searchParam>
+				<name value="_include" />
+				<type value="string" />
+				<documentation value="Request that the engine return additional resources" />
+			</searchParam>
+			<searchParam>
+				<name value="_format" />
+				<type value="string" />
+				<documentation value="Specify the returned format of the response payload" />
+			</searchParam>
+			<searchParam>
+				<name value="code" />
+				<definition value="http://hl7.org/fhir/SearchParameter/medications-code" />
+				<type value="token" />
+				<documentation value="Codes that identify this medication" />
+			</searchParam>
+			<searchParam>
+				<name value="container" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Medication-container" />
+				<type value="token" />
+				<documentation value="E.g. box, vial, blister-pack" />
+			</searchParam>
+			<searchParam>
+				<name value="form" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Medication-form" />
+				<type value="token" />
+				<documentation value="powder | tablets | capsule +" />
+			</searchParam>
+			<searchParam>
+				<name value="ingredient" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Medication-ingredient" />
+				<type value="reference" />
+				<documentation value="The product contained" />
+			</searchParam>
+			<searchParam>
+				<name value="ingredient-code" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Medication-ingredient-code" />
+				<type value="token" />
+				<documentation value="The product contained" />
+			</searchParam>
+			<searchParam>
+				<name value="manufacturer" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Medication-manufacturer" />
+				<type value="reference" />
+				<documentation value="Manufacturer of the item" />
+			</searchParam>
+			<searchParam>
+				<name value="over-the-counter" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Medication-over-the-counter" />
+				<type value="token" />
+				<documentation value="True if medication does not require a prescription" />
+			</searchParam>
+			<searchParam>
+				<name value="package-item" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Medication-package-item" />
+				<type value="reference" />
+				<documentation value="The item in the package" />
+			</searchParam>
+			<searchParam>
+				<name value="package-item-code" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Medication-package-item-code" />
+				<type value="token" />
+				<documentation value="The item in the package" />
+			</searchParam>
+			<searchParam>
+				<name value="status" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Medication-status" />
+				<type value="token" />
+				<documentation value="active | inactive | entered-in-error" />
+			</searchParam>
+		</resource>
+		<resource>
+			<type value="Patient" />
+			<profile>
+				<reference value="http://hl7.org/fhir/StructureDefinition/Patient" />
+			</profile>
+			<interaction>
+				<code value="read" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="vread" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="update" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="patch" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="delete" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-instance" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="create" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="search-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<versioning value="versioned-update" />
+			<readHistory value="true" />
+			<updateCreate value="true" />
+			<conditionalCreate value="true" />
+			<conditionalRead value="full-support" />
+			<conditionalUpdate value="true" />
+			<conditionalDelete value="multiple" />
+			<referencePolicy value="literal" />
+			<referencePolicy value="logical" />
+			<searchInclude value="Patient.link" />
+			<searchInclude value="Patient.general-practitioner" />
+			<searchInclude value="Patient.organization" />
+			<searchParam>
+				<name value="_id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-id" />
+				<type value="token" />
+				<documentation value="Logical id of this artifact" />
+			</searchParam>
+			<searchParam>
+				<name value="_language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-language" />
+				<type value="token" />
+				<documentation value="Language of the resource content" />
+			</searchParam>
+			<searchParam>
+				<name value="_lastUpdated" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated" />
+				<type value="date" />
+				<documentation value="When the resource version last changed" />
+			</searchParam>
+			<searchParam>
+				<name value="_profile" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-profile" />
+				<type value="token" />
+				<documentation value="Profiles this resource claims to conform to" />
+			</searchParam>
+			<searchParam>
+				<name value="_security" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-security" />
+				<type value="token" />
+				<documentation value="Security Labels applied to this resource" />
+			</searchParam>
+			<searchParam>
+				<name value="_tag" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-tag" />
+				<type value="token" />
+				<documentation value="Tags applied" />
+			</searchParam>
+			<searchParam>
+				<name value="_sort" />
+				<type value="string" />
+				<documentation value="The criteria sort order" />
+			</searchParam>
+			<searchParam>
+				<name value="_count" />
+				<type value="number" />
+				<documentation value="The number of resources returned per page" />
+			</searchParam>
+			<searchParam>
+				<name value="_include" />
+				<type value="string" />
+				<documentation value="Request that the engine return additional resources" />
+			</searchParam>
+			<searchParam>
+				<name value="_format" />
+				<type value="string" />
+				<documentation value="Specify the returned format of the response payload" />
+			</searchParam>
+			<searchParam>
+				<name value="active" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-active" />
+				<type value="token" />
+				<documentation value="Whether the patient record is active" />
+			</searchParam>
+			<searchParam>
+				<name value="address" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address" />
+				<type value="string" />
+				<documentation value="A server defined search that may match any of the string fields in the Address, including line, city, state, country, postalCode, and/or text" />
+			</searchParam>
+			<searchParam>
+				<name value="address-city" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address-city" />
+				<type value="string" />
+				<documentation value="A city specified in an address" />
+			</searchParam>
+			<searchParam>
+				<name value="address-country" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address-country" />
+				<type value="string" />
+				<documentation value="A country specified in an address" />
+			</searchParam>
+			<searchParam>
+				<name value="address-postalcode" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address-postalcode" />
+				<type value="string" />
+				<documentation value="A postalCode specified in an address" />
+			</searchParam>
+			<searchParam>
+				<name value="address-state" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address-state" />
+				<type value="string" />
+				<documentation value="A state specified in an address" />
+			</searchParam>
+			<searchParam>
+				<name value="address-use" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address-use" />
+				<type value="token" />
+				<documentation value="A use code specified in an address" />
+			</searchParam>
+			<searchParam>
+				<name value="animal-breed" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-animal-breed" />
+				<type value="token" />
+				<documentation value="The breed for animal patients" />
+			</searchParam>
+			<searchParam>
+				<name value="animal-species" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-animal-species" />
+				<type value="token" />
+				<documentation value="The species for animal patients" />
+			</searchParam>
+			<searchParam>
+				<name value="birthdate" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-birthdate" />
+				<type value="date" />
+				<documentation value="The patient&amp;#39;s date of birth" />
+			</searchParam>
+			<searchParam>
+				<name value="death-date" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-death-date" />
+				<type value="date" />
+				<documentation value="The date of death has been provided and satisfies this search value" />
+			</searchParam>
+			<searchParam>
+				<name value="deceased" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-deceased" />
+				<type value="token" />
+				<documentation value="This patient has been marked as deceased, or as a death date entered" />
+			</searchParam>
+			<searchParam>
+				<name value="email" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-email" />
+				<type value="token" />
+				<documentation value="A value in an email contact" />
+			</searchParam>
+			<searchParam>
+				<name value="family" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-family" />
+				<type value="string" />
+				<documentation value="A portion of the family name of the patient" />
+			</searchParam>
+			<searchParam>
+				<name value="gender" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-gender" />
+				<type value="token" />
+				<documentation value="Gender of the patient" />
+			</searchParam>
+			<searchParam>
+				<name value="general-practitioner" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-general-practitioner" />
+				<type value="reference" />
+				<documentation value="Patient&amp;#39;s nominated general practitioner, not the organization that manages the record" />
+			</searchParam>
+			<searchParam>
+				<name value="given" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-given" />
+				<type value="string" />
+				<documentation value="A portion of the given name of the patient" />
+			</searchParam>
+			<searchParam>
+				<name value="identifier" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-identifier" />
+				<type value="token" />
+				<documentation value="A patient identifier" />
+			</searchParam>
+			<searchParam>
+				<name value="language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-language" />
+				<type value="token" />
+				<documentation value="Language code (irrespective of use value)" />
+			</searchParam>
+			<searchParam>
+				<name value="link" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-link" />
+				<type value="reference" />
+				<documentation value="All patients linked to the given patient" />
+			</searchParam>
+			<searchParam>
+				<name value="name" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-name" />
+				<type value="string" />
+				<documentation value="A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text" />
+			</searchParam>
+			<searchParam>
+				<name value="organization" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Patient-organization" />
+				<type value="reference" />
+				<documentation value="The organization at which this person is a patient" />
+			</searchParam>
+			<searchParam>
+				<name value="phone" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-phone" />
+				<type value="token" />
+				<documentation value="A value in a phone contact" />
+			</searchParam>
+			<searchParam>
+				<name value="phonetic" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-phonetic" />
+				<type value="string" />
+				<documentation value="A portion of either family or given name using some kind of phonetic matching algorithm" />
+			</searchParam>
+			<searchParam>
+				<name value="telecom" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-telecom" />
+				<type value="token" />
+				<documentation value="The value in any kind of telecom details of the patient" />
+			</searchParam>
+		</resource>
+		<resource>
+			<type value="Practitioner" />
+			<profile>
+				<reference value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
+			</profile>
+			<interaction>
+				<code value="read" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="vread" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="update" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="patch" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="delete" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-instance" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="history-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="create" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<interaction>
+				<code value="search-type" />
+				<documentation value="Implemented per the specification (or Insert other doco here)" />
+			</interaction>
+			<versioning value="versioned-update" />
+			<readHistory value="true" />
+			<updateCreate value="true" />
+			<conditionalCreate value="true" />
+			<conditionalRead value="full-support" />
+			<conditionalUpdate value="true" />
+			<conditionalDelete value="multiple" />
+			<referencePolicy value="literal" />
+			<referencePolicy value="logical" />
+			<searchParam>
+				<name value="_id" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-id" />
+				<type value="token" />
+				<documentation value="Logical id of this artifact" />
+			</searchParam>
+			<searchParam>
+				<name value="_language" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-language" />
+				<type value="token" />
+				<documentation value="Language of the resource content" />
+			</searchParam>
+			<searchParam>
+				<name value="_lastUpdated" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated" />
+				<type value="date" />
+				<documentation value="When the resource version last changed" />
+			</searchParam>
+			<searchParam>
+				<name value="_profile" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-profile" />
+				<type value="token" />
+				<documentation value="Profiles this resource claims to conform to" />
+			</searchParam>
+			<searchParam>
+				<name value="_security" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-security" />
+				<type value="token" />
+				<documentation value="Security Labels applied to this resource" />
+			</searchParam>
+			<searchParam>
+				<name value="_tag" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Resource-tag" />
+				<type value="token" />
+				<documentation value="Tags applied" />
+			</searchParam>
+			<searchParam>
+				<name value="_sort" />
+				<type value="string" />
+				<documentation value="The criteria sort order" />
+			</searchParam>
+			<searchParam>
+				<name value="_count" />
+				<type value="number" />
+				<documentation value="The number of resources returned per page" />
+			</searchParam>
+			<searchParam>
+				<name value="_include" />
+				<type value="string" />
+				<documentation value="Request that the engine return additional resources" />
+			</searchParam>
+			<searchParam>
+				<name value="_format" />
+				<type value="string" />
+				<documentation value="Specify the returned format of the response payload" />
+			</searchParam>
+			<searchParam>
+				<name value="active" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Practitioner-active" />
+				<type value="token" />
+				<documentation value="Whether the practitioner record is active" />
+			</searchParam>
+			<searchParam>
+				<name value="address" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address" />
+				<type value="string" />
+				<documentation value="A server defined search that may match any of the string fields in the Address, including line, city, state, country, postalCode, and/or text" />
+			</searchParam>
+			<searchParam>
+				<name value="address-city" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address-city" />
+				<type value="string" />
+				<documentation value="A city specified in an address" />
+			</searchParam>
+			<searchParam>
+				<name value="address-country" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address-country" />
+				<type value="string" />
+				<documentation value="A country specified in an address" />
+			</searchParam>
+			<searchParam>
+				<name value="address-postalcode" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address-postalcode" />
+				<type value="string" />
+				<documentation value="A postalCode specified in an address" />
+			</searchParam>
+			<searchParam>
+				<name value="address-state" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address-state" />
+				<type value="string" />
+				<documentation value="A state specified in an address" />
+			</searchParam>
+			<searchParam>
+				<name value="address-use" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-address-use" />
+				<type value="token" />
+				<documentation value="A use code specified in an address" />
+			</searchParam>
+			<searchParam>
+				<name value="communication" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Practitioner-communication" />
+				<type value="token" />
+				<documentation value="One of the languages that the practitioner can communicate with" />
+			</searchParam>
+			<searchParam>
+				<name value="email" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-email" />
+				<type value="token" />
+				<documentation value="A value in an email contact" />
+			</searchParam>
+			<searchParam>
+				<name value="family" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-family" />
+				<type value="string" />
+				<documentation value="A portion of the family name" />
+			</searchParam>
+			<searchParam>
+				<name value="gender" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-gender" />
+				<type value="token" />
+				<documentation value="Gender of the practitioner" />
+			</searchParam>
+			<searchParam>
+				<name value="given" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-given" />
+				<type value="string" />
+				<documentation value="A portion of the given name" />
+			</searchParam>
+			<searchParam>
+				<name value="identifier" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Practitioner-identifier" />
+				<type value="token" />
+				<documentation value="A practitioner&amp;#39;s Identifier" />
+			</searchParam>
+			<searchParam>
+				<name value="name" />
+				<definition value="http://hl7.org/fhir/SearchParameter/Practitioner-name" />
+				<type value="string" />
+				<documentation value="A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text" />
+			</searchParam>
+			<searchParam>
+				<name value="phone" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-phone" />
+				<type value="token" />
+				<documentation value="A value in a phone contact" />
+			</searchParam>
+			<searchParam>
+				<name value="phonetic" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-phonetic" />
+				<type value="string" />
+				<documentation value="A portion of either family or given name using some kind of phonetic matching algorithm" />
+			</searchParam>
+			<searchParam>
+				<name value="telecom" />
+				<definition value="http://hl7.org/fhir/SearchParameter/individual-telecom" />
+				<type value="token" />
+				<documentation value="The value in any kind of contact" />
+			</searchParam>
+		</resource>
+	</rest>
+</CapabilityStatement>

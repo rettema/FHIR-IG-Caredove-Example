@@ -1,0 +1,125 @@
+{
+  "resourceType": "Patient",
+  "id": "example",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "JHN"
+          }
+        ],
+        "text": "Ontario PHN"
+      },
+      "system": "http://ehealthontario.ca/API/FHIR/NamingSystem/ca-on-patient-hcn",
+      "value": "1234567",
+      "period": {
+        "start": "2017-01-01T00:00:01-05:00",
+        "end": "2017-12-31T23:59:59-05:00"
+      }
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "given": [
+        "API",
+        "Test"
+      ],
+      "family": "User"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "214-856-0421",
+      "use": "home"
+    },
+    {
+      "system": "phone",
+      "value": "214-715-6071",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "testpatient@caredove.com",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "use": "home",
+      "line": [
+        "3714 Greenville Road"
+      ],
+      "city": "Dallas",
+      "state": "TX",
+      "postalCode": "75206"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1994-04-08",
+  "maritalStatus": {
+    "coding": {
+      "code": "U",
+      "display": "Unmarried"
+    },
+    "text": "Unmarried"
+  },
+  "contact": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "code": "N",
+              "display": "Next-of-Kin"
+            }
+          ],
+          "text": "Next-of-Kin"
+        }
+      ],
+      "name": {
+        "given": [
+          "Mother"
+        ],
+        "family": "User"
+      },
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "(775) 734-1234",
+          "use": "work"
+        }
+      ],
+      "address": {
+        "use": "home",
+        "line": [
+          "3712 Greenville Road"
+        ],
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75206"
+      }
+    }
+  ],
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "code": "en-US"
+          }
+        ],
+        "text": "English"
+      },
+      "preferred": true
+    }
+  ],
+  "generalPractitioner": [
+    {
+      "reference": "Practitioner/example"
+    }
+  ]
+}

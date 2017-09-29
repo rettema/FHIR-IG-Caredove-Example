@@ -1,0 +1,34 @@
+Configuration Parameter,Configuration Value ( use '|' for lists)
+working-dir,C:/Projects/fhir/stu301/build/guides/Caredove-API/
+title,IG-Template
+status,draft
+publisher,AEGIS.net, Inc
+extensions,template-blah
+searches,
+codesystems,blah-codes
+valuesets,
+structuremaps,Foo
+source,ig.xml
+version,3.0.1
+fixed-business-version,0.1.0
+paths.pages,pages
+paths.resources,resources|examples
+paths.temp,temp
+paths.output,output
+paths.txCache,txCache
+paths.qa,qa
+paths.specification,http://build.fhir.org
+jurisdiction,US
+sct-edition,http://snomed.info/sct/731000124108
+no-inactive-codes,FALSE
+broken-links,warning
+gen-examples,FALSE
+do-transforms,FALSE
+canonicalBase,http://www.fhir.org/guides/caredove-api
+dependencyList.name,
+dependencyList.location,
+dependencyList.source,
+special-urls,
+tool,jekyll
+cial-urls,
+tool,jekyll

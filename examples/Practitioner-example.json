@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "example",
+  "name": [
+    {
+      "given": [
+        "Kurt"
+      ],
+      "family": "Holland"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(775) 734-1234",
+      "use": "work"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType": "Medication",
+  "id": "example",
+  "display": "Medication",
+  "ingredient": [
+    {
+      "itemCodeableConcept": {
+        "coding": [
+          {
+            "display": "Aspirin"
+          }
+        ],
+        "text": "Aspirin"
+      },
+      "active": true
+    }
+  ]
+}
