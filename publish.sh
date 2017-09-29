@@ -1,5 +1,5 @@
 #!/bin/bash
-name="IG-starter-template"
+name="Caredove-API"
 path1=/home/caredove/Documents/FHIR/Caredove-API/
 path2=/home/caredove/Downloads/
 echo "================================================================="
